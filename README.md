@@ -4,12 +4,13 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+List of users are generated in the home page.
+When each Item is selceted, directs to a details page which contains extra info. of the user.
 
-A few resources to get you started if this is your first Flutter project:
+API used to fetch users:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [JsonPlaceholder Website](https://jsonplaceholder.typicode.com/users)
+
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
