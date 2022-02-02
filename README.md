@@ -1,8 +1,6 @@
 # random_user
 
-A new Flutter project.
-
-## Getting Started
+About project.
 
 List of users are generated in the home page.
 When each Item is selceted, directs to a details page which contains extra info. of the user.
