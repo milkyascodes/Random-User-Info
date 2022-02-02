@@ -5,6 +5,8 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:random_user/userDetails.dart';
+
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -64,7 +66,10 @@ class _HomePageState extends State<HomePage> {
                 trailing: IconButton(
                   icon: Icon(Icons.more_horiz),
                   onPressed: () {
-                    print(user['name']);
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => DetailPage(userData: user)));
                   },
                 ),
               ),
